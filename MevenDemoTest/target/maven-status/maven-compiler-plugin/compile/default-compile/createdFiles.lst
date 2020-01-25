@@ -1,0 +1,6 @@
+com\selenium\utility\CommonFunctions.class
+com\selenium\pagenavigation\HotelSearchDetailsPage.class
+com\selenium\utility\ExcelFunctions.class
+com\selenium\pagenavigation\HotelSearchPage.class
+com\selenium\pagenavigation\RoundTripFlightSearchPage.class
+com\selenium\pagenavigation\RoundTripFlightSearchDetailsPage.class

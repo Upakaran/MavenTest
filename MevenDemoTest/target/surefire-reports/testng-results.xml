@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1347156" started-at="2020-01-25T08:50:49Z" finished-at="2020-01-25T09:13:16Z">
+    <groups>
+    </groups>
+    <test name="HotelSearchTest" duration-ms="1347156" started-at="2020-01-25T08:50:49Z" finished-at="2020-01-25T09:13:16Z">
+      <class name="com.selenium.test.SearchHotelTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="beforeTest" is-config="true" duration-ms="4979" started-at="2020-01-25T14:20:49Z" finished-at="2020-01-25T14:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/CleartripTestData.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HotelSearch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="beforeMethod" is-config="true" duration-ms="31423" started-at="2020-01-25T14:20:55Z" finished-at="2020-01-25T14:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaushik.0407@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K@ush1k92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="Test2" duration-ms="418361" started-at="2020-01-25T14:21:26Z" data-provider="getTestdata" finished-at="2020-01-25T14:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/02/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[05/02/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 room, 1 adult]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="afterTest" is-config="true" duration-ms="29952" started-at="2020-01-25T14:28:25Z" finished-at="2020-01-25T14:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=SearchHotelTest.Test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="beforeMethod" is-config="true" duration-ms="26204" started-at="2020-01-25T14:28:55Z" finished-at="2020-01-25T14:29:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaushik.0407@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K@ush1k92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="Test2" duration-ms="652468" started-at="2020-01-25T14:29:21Z" data-provider="getTestdata" finished-at="2020-01-25T14:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Puri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12/03/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/04/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 room, 2 adults]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="afterTest" is-config="true" duration-ms="30903" started-at="2020-01-25T14:40:13Z" finished-at="2020-01-25T14:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=SearchHotelTest.Test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="beforeMethod" is-config="true" duration-ms="24758" started-at="2020-01-25T14:40:44Z" finished-at="2020-01-25T14:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaushik.0407@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K@ush1k92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="Test2" duration-ms="89908" started-at="2020-01-25T14:41:09Z" data-provider="getTestdata" finished-at="2020-01-25T14:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mandarmoni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29/04/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/05/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 rooms, 4 adults]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="afterTest" is-config="true" duration-ms="31594" started-at="2020-01-25T14:42:39Z" finished-at="2020-01-25T14:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=SearchHotelTest.Test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.test.SearchHotelTest@548b7f67]" name="afterMethod" is-config="true" duration-ms="5861" started-at="2020-01-25T14:43:10Z" finished-at="2020-01-25T14:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.selenium.test.SearchHotelTest -->
+    </test> <!-- HotelSearchTest -->
+  </suite> <!-- Suite -->
+</testng-results>

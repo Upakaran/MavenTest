@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" name="Suite">
+	<-- this test is for the Cleartrip round trip flight search functionality -->
 	<test thread-count="1" name="RoundtripFlightSearchTest">
 		<parameter name="excelFilePath" value="src/CleartripTestData.xlsx" />
 		<parameter name="MailId" value="kaushik.0407@gmail.com" />
@@ -12,6 +13,7 @@
 			<class name="com.selenium.test.RoundTripFlightSearchTest" />
 		</classes>
 </test>
+		<-- this test is for the Cleartrip hotel search functionality -->
 		<test thread-count="1" name="HotelSearchTest">
 			<parameter name="excelFilePath" value="src/CleartripTestData.xlsx" />
 			<parameter name="MailId" value="kaushik.0407@gmail.com" />

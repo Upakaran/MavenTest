@@ -1,10 +1,16 @@
 package com.selenium.utility;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class CommonFunctions {
 	
 	WebDriver driver;
-	String targetURL = "https://www.cleartrip.com/";
+	//String targetURL = "https://www.cleartrip.com/";
 	
 	/* used in login method*/
 	
@@ -71,7 +77,7 @@ public class CommonFunctions {
 
 	}
 
-	public void Login(String myMailId, String myPassword) throws InterruptedException {
+	public void Login(String myMailId, String myPassword, String targetURL) throws InterruptedException {
 
 		// launch browser
 
@@ -134,7 +140,7 @@ public class CommonFunctions {
 				System.out.println(source.getAbsolutePath());
 				
 				
-				String destination = "test-output/FailedTestsScreenshots/"+screenshotName+dateName+".png";
+				String destination = "Report_Output/FailedTestsScreenshots/"+screenshotName+dateName+".png";
 				System.out.println("destination "+destination);
 				File finalDestination = new File(destination);
 				FileUtils.copyFile(source, finalDestination);

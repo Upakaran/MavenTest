@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 /** To be accessed by both the roundtripflightsearch and hotelsearch tests. **/
+/** another line added in Github commit **/
 
 public class CommonFunctions {
 	

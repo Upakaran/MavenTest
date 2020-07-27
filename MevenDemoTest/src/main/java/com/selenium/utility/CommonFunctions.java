@@ -37,6 +37,10 @@ public class CommonFunctions {
 	By SignoutBtn = By.xpath("//a[text()='Sign out']");
 	By ClearTripLogo = By.xpath("(//span[@title='Cleartrip '])");
 	
+	By SignOutHeader2 = By.xpath("(//div[@class='fs-2 c-inherit flex flex-nowrap']//*[name()='svg'])[2]");
+	By SignoutBtn2 = By.xpath("//span[contains(text(),'Sign out')]");
+	By ClearTripLogo2 = By.xpath("//a[@data-test-attrib='cleartrip-logo']//*[name()='svg']");
+	
 	public  WebDriver doSetUp() {
 
 		System.setProperty("webdriver.chrome.driver",
@@ -105,15 +109,34 @@ public class CommonFunctions {
 	public void Logout() throws InterruptedException {
 
 		System.out.println("In logout");
-		driver.findElement(SignOutHeader).click();
-		Thread.sleep(5000);
-		driver.findElement(SignoutBtn).click();
-		Thread.sleep(5000);
-		System.out.println("logout done");
-		driver.findElement(ClearTripLogo).click();
-		Thread.sleep(5000);
-		driver.manage().deleteAllCookies();
-		Thread.sleep(2000);
+		WebElement signoutHeader1 = null;
+		try {
+			signoutHeader1 = driver.findElement(SignOutHeader);
+			signoutHeader1.click();
+			Thread.sleep(5000);
+			driver.findElement(SignoutBtn).click();
+			Thread.sleep(5000);
+			System.out.println("logout done");
+			driver.findElement(ClearTripLogo).click();
+			Thread.sleep(5000);
+			driver.manage().deleteAllCookies();
+			Thread.sleep(2000);
+		} catch (Exception e) {
+			System.out.println("This will take the second route for signout.");
+		}
+		
+		if(signoutHeader1 == null){
+			driver.findElement(SignOutHeader2).click();
+			Thread.sleep(5000);
+			driver.findElement(SignoutBtn2).click();
+			Thread.sleep(5000);
+			System.out.println("logout done");
+			driver.findElement(ClearTripLogo2).click();
+			Thread.sleep(5000);
+			driver.manage().deleteAllCookies();
+			Thread.sleep(2000);
+		}
+		
 
 	}
 	

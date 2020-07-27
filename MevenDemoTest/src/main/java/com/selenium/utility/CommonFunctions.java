@@ -18,6 +18,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+/** To be accessed by both the roundtripflightsearch and hotelsearch tests. **/
+
 public class CommonFunctions {
 	
 	WebDriver driver;
